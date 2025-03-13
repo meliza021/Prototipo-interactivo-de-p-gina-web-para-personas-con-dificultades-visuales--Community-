@@ -102,3 +102,26 @@ main .conjunto .segundo img:nth-child(3){
     margin-top: -65px;
     margin-left: 850px;
 }
+main .conjunto .parrafoo p{
+    display: flex;
+    width: 700px;
+    height: 71px;
+    align-items: center;
+    margin-right: 100px;
+    color: white;
+    font-family: "RobotoCondensed-Regular" ;
+    font-size: 50px;
+    padding: 2px;
+    margin-left: 90px;
+    margin-top: 26px;
+}
+main .conjunto .contexto p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    color: white;
+    font-family: "RobotoCondensed-Regular" ;
+    font-size: 26px;
+}
