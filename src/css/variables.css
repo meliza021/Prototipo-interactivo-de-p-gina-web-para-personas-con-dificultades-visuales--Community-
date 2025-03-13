@@ -1,0 +1,23 @@
+:root{
+    --color-1: #E5E5E5;
+} 
+@font-face {
+    font-family: "ReadexPro-Medium";
+    src: url("../storage/font/Readex_Pro/static/ReadexPro-Medium.ttf");
+}
+@font-face {
+    font-family: "ReadexPro-Light";
+    src: url("../storage/font/Readex_Pro/static/ReadexPro-Light.ttf");
+}
+@font-face {
+    font-family: "ReadexPro-Medium";
+    src: url("../storage/font/Readex_Pro/static/ReadexPro-Medium.ttf");
+}
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url("../storage/font/Readex_Pro/Roboto_Condensed/static/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url("../storage/font/Readex_Pro/Roboto_Condensed/static/RobotoCondensed-Bold.ttf");
+}
