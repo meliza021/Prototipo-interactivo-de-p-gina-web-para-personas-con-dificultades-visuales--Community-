@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
+    background-color: #141414;
 }
 
 header{
@@ -66,4 +66,39 @@ header .option{
 
 header .option img{
     object-fit: cover;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .conjunto .primero img{
+    width: 600px;
+    height: 300px;
+    margin-top: 39px;
+    margin-left: 100px;
+}
+main .conjunto .segundo img:nth-child(1){
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-top: -370px;
+    margin-left: 740px;
+    rotate: 35deg;
+}
+main .conjunto .segundo img:nth-child(2){
+    display: flex;
+    width: 90px;
+    height: 160px;
+    margin-top: -150px;
+    margin-left: 1060px;
+    object-fit: cover;
+}
+main .conjunto .segundo img:nth-child(3){
+    display: flex;
+    width: 200px;
+    height: 90px;
+    margin-top: -65px;
+    margin-left: 850px;
 }
