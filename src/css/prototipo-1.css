@@ -124,4 +124,19 @@ main .conjunto .contexto p{
     color: white;
     font-family: "RobotoCondensed-Regular" ;
     font-size: 26px;
+    width: 650px;
+    height: 71px;
+    margin-left: 90px;
+    margin-top: 13px;
+}
+body main .conjunto .segundo .imagenes img{
+    margin-top: -510px;
+}
+body main .conjunto .segundo .imagenes img:nth-child(2){
+    margin-top: -120px;
+    margin-left: 1070px;
+}
+body main .conjunto .segundo .imagenes img:nth-child(3){
+    margin-top: -80px;
+    margin-left: 850px;
 }
