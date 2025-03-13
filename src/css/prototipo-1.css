@@ -1,0 +1,142 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141414;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    column-gap: 2%;
+    padding-top: 23px;
+    grid-template-areas:"logo logo menu menu menu menu menu menu option option "  
+                        "pre pre pre pre pre info info info info info "
+}
+
+header .img{
+    grid-area: logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+header .img img{
+    width: 158px;
+    height: 95px;
+    object-fit: contain;
+}
+
+header nav{
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:33px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 20px;
+}
+
+header .option{
+    grid-area: option;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:11%;
+    padding-right: 25%;
+}
+
+header .option img{
+    object-fit: cover;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .conjunto .primero img{
+    width: 600px;
+    height: 300px;
+    margin-top: 39px;
+    margin-left: 100px;
+}
+main .conjunto .segundo img:nth-child(1){
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-top: -370px;
+    margin-left: 740px;
+    rotate: 35deg;
+}
+main .conjunto .segundo img:nth-child(2){
+    display: flex;
+    width: 90px;
+    height: 160px;
+    margin-top: -150px;
+    margin-left: 1060px;
+    object-fit: cover;
+}
+main .conjunto .segundo img:nth-child(3){
+    display: flex;
+    width: 200px;
+    height: 90px;
+    margin-top: -65px;
+    margin-left: 850px;
+}
+main .conjunto .parrafoo p{
+    display: flex;
+    width: 700px;
+    height: 71px;
+    align-items: center;
+    margin-right: 100px;
+    color: white;
+    font-family: "RobotoCondensed-Regular" ;
+    font-size: 50px;
+    padding: 2px;
+    margin-left: 90px;
+    margin-top: 26px;
+}
+main .conjunto .contexto p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    color: white;
+    font-family: "RobotoCondensed-Regular" ;
+    font-size: 26px;
+    width: 650px;
+    height: 71px;
+    margin-left: 90px;
+    margin-top: 13px;
+}
+body main .conjunto .segundo .imagenes img{
+    margin-top: -510px;
+}
+body main .conjunto .segundo .imagenes img:nth-child(2){
+    margin-top: -120px;
+    margin-left: 1070px;
+}
+body main .conjunto .segundo .imagenes img:nth-child(3){
+    margin-top: -80px;
+    margin-left: 850px;
+}
